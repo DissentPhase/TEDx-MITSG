@@ -1,20 +1,7 @@
-/* =============================================
- *
- *   FIXED RESPONSIVE NAV
- *
- *   (c) 2014 @adtileHQ
- *   http://www.adtile.me
- *   http://twitter.com/adtilehq
- *
- *   Free to use under the MIT License.
- *
- * ============================================= */
 
 (function () {
 
   "use strict";
-
-  // Feature test to rule out some older browsers
   if ("querySelector" in document && "addEventListener" in window) {
 
     // forEach method, that passes back the stuff we need

@@ -1,4 +1,4 @@
-$('.countdown-timer').countdown({
+''$('.countdown-timer').countdown({
     date: "January 25, 2020 10:00:00",
 
     render: function(data) {

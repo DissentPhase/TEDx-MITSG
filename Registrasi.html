@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrasi Siclus</title>
+  <link rel="shortcut icon" href="assets/SICLUS.ico">
+  <link rel="stylesheet" href="css/Registrasi.css">
+</head>
+<body>
+  
+  <section class="container">
+    <header>Registration SICLUS 2024</header>
+    <form action="#" class="form">
+      <div class="input-box">
+        <label>Nama lengkap:</label>
+        <input type="text" placeholder="Masukkan Nama Lengkap" required>
+      </div>
+
+      <div class="input-box">
+        <label>Email:</label>
+        <input type="text" placeholder="Masukkan Email" required>
+      </div>
+
+      <div class="column">
+        <div class="input-box">
+          <label>Nomor Telepon:</label>
+          <input type="number" placeholder="Masukkan Nomor Telepon" required>
+        </div>
+        <div class="input-box">
+          <label>Tanggal Lahir:</label>
+          <input type="date" placeholder="Masukkan Tanggal Lahir" required>
+        </div>
+      </div>
+
+      <div class="gender-box">
+        <h3>Gender</h3>
+        <div class="gender-option">
+          <div class="gender">
+            <input type="radio" id="check-male" name="gender" checked>
+            <label for="check-male">Laki-Laki</label>
+          </div>
+          <div class="gender">
+            <input type="radio" id="check-female" name="gender">
+            <label for="check-female">Perempuan</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="input-box address">
+        <label>Alamat:</label>
+        <input type="text" placeholder="Masukkan Alamat" required>
+        <div class="column">
+          <div class="select-box">
+            <select>
+              <option hidden>Designasi</option>
+              <option>Siswa SMA</option>
+              <option>Mahasiswa</option>
+            </select>
+          </div>
+        </div>
+        <div class="column">
+          <input type="text" placeholder="Masukkan Asal Instansi" required>
+          <input type="text" placeholder="Asal Kota" required>
+          <input type="number" placeholder="Asal Provinsi" required>
+        </div>
+      </div>
+
+      <div class="input-box">
+        <label>Transaction ID:</label>
+        <input type="text" placeholder="Masukkan ID Transaksi" required>
+      </div>
+
+      <div class="payment-info">
+        <p>Transfer Uangnya dan masukkan Screenshotnya dibawah</p>
+        <p><strong>Bank Name:</strong> BRI</p>
+        <p><strong>Beneficiary:</strong> SICLUS</p>
+        <p><strong>Account No:</strong> 07777776</p>
+        <p><strong>ID:</strong> 100000000000000</p>
+
+      <div class="input-box">
+        <label>Biaya:</label>
+        <input type="text" placeholder="Masukkan Biaya" required>
+      </div>
+
+      <div class="input-box">
+        <label>Transaction ID:</label>
+        <input type="text" placeholder="Masukkan ID Transaksi" required>
+      </div>
+
+      <div class="payment-info">
+        <p><strong>Jika kami menemukan disparansi maka kami akan menganggap pembayaramu invalid.</strong></p>
+      </div>
+
+      <div class="input-box">
+        <label>Upload KTM/Kartu siswa/KTP/KTA:</label>
+        <input type="file" accept=".pdf,.doc,.docx,.jpg,.png" required>
+      </div>
+
+      <div class="input-box">
+        <label>Upload Bukti Pembayaran:</label>
+        <input type="file" accept=".pdf,.doc,.docx,.jpg,.png" required>
+      </div>
+
+      <button>Submit</button>
+    </form>
+  </section>
+</body>
+</html>

@@ -1,14 +1,5 @@
-/*! responsive-nav.js 1.0.38
- * https://github.com/viljamis/responsive-nav.js
- * http://responsive-nav.com
- *
- * Copyright (c) 2015 @viljamis
- * Available under the MIT license
- */
 
-/* global Event */
 (function (document, window, index) {
-  // Index is used to keep multiple navs on the same page namespaced
 
   "use strict";
 

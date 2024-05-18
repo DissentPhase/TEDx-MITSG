@@ -1,20 +1,3 @@
-/* =============================================================
-
-  Smooth Scroll v4.4
-  Animate scrolling to anchor links, by Chris Ferdinandi.
-  http://gomakethings.com
-
-  Additional contributors:
-  https://github.com/cferdinandi/smooth-scroll#contributors
-
-  Free to use under the MIT License.
-  http://gomakethings.com/mit/
-
-  p.s. This is a custom build for Fixed Nav, ask @adtileHQ for
-  any changes made into this build
-
- * ============================================================= */
-
 window.smoothScroll = (function (window, document, undefined) {
 
   'use strict';
